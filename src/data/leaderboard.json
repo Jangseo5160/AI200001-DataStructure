@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Hero",
+    "score": 856,
+    "floor": 5,
+    "level": 4,
+    "exp": 46,
+    "hp": 160,
+    "turns": 437,
+    "cleared_at": "2026-05-21 22:30:05"
+  },
+  {
+    "name": "Hero",
+    "score": 705,
+    "floor": 5,
+    "level": 3,
+    "exp": 15,
+    "hp": 140,
+    "turns": 383,
+    "cleared_at": "2026-05-21 22:02:43"
+  }
+]
