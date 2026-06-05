@@ -1,6 +1,37 @@
 # Dungeon Crawler - Data Structure & Algorithm Guide
 
 터미널에서 실행되는 `ncurses library` 기반 던전 크롤러 게임입니다.  
+
+## 실행 방법
+
+### 요구 사항
+- Python 3.6 이상
+  - # Ubuntu / Debian
+    ```
+    sudo apt update
+    sudo apt install python3
+
+    # Fedora / RHEL
+    sudo dnf install python3
+    ```
+# Arch
+sudo pacman -S python
+- 별도 패키지 설치 불필요 (표준 라이브러리만 사용)
+- macOS / Linux / WSL 환경 권장
+  - Windows 네이티브 환경은 `curses`가 기본 지원되지 않습니다.
+    Windows에서는 아래 명령어로 패키지를 먼저 설치하세요:
+    ```
+    pip install windows-curses
+    ```
+
+### 실행
+
+프로젝트 루트 디렉토리에서 아래 명령어를 실행합니다:
+
+```bash
+python3 main.py
+```
+
 ## 조작법
 
 | 키 | 기능 |
